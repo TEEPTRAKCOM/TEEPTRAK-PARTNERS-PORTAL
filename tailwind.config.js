@@ -4,6 +4,8 @@ module.exports = {
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './App.jsx',
+    './*.jsx',
   ],
   theme: {
     extend: {
@@ -13,9 +15,6 @@ module.exports = {
           coral: '#ff674c',
           dark: '#232120',
         },
-      },
-      fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
       },
     },
   },
